@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthText : MonoBehaviour {
+public class HUD : MonoBehaviour {
 
-	// Use this for initialization
+    public FloatReference Health;
+    public string CurrentWeapon = "pistol";
+
+    // Use this for initialization
 	void Start () {
 		
 	}
