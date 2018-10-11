@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 934acc5a08e014d0ebbfdb94d13120a5, type: 3}
-  m_Name: Health
+  m_Script: {fileID: 11500000, guid: a54bb8178d8af467ea780e969b523bb2, type: 3}
+  m_Name: Invincible
   m_EditorClassIdentifier: 
-  Value: 100
+  Value: 0
