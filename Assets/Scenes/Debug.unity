@@ -801,9 +801,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e0043a87a8f643aa9f2fd9c0756cb3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: {fileID: 11400000, guid: 28b2edd3a987f4067b9b52be0c91b644, type: 2}
-  Armor: {fileID: 11400000, guid: 87dd0fe65ea034c33964723280595693, type: 2}
-  CurrentWeapon: pistol
+  HealthVariable: {fileID: 11400000, guid: 28b2edd3a987f4067b9b52be0c91b644, type: 2}
+  CurrentHealth: {fileID: 1109647374}
+  ArmorVariable: {fileID: 11400000, guid: 87dd0fe65ea034c33964723280595693, type: 2}
+  CurrentArmor: {fileID: 1487841412}
+  Weapon: pistol
+  CurrentWeapon: {fileID: 123458608}
 --- !u!1 &993914627
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,7 +859,7 @@ MonoBehaviour:
     UseConstant: 0
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: 87dd0fe65ea034c33964723280595693, type: 2}
-  Invincible: {fileID: 0}
+  Invincible: {fileID: 11400000, guid: b638c4e656585454da6562972be5c89d, type: 2}
 --- !u!212 &993914630
 SpriteRenderer:
   m_ObjectHideFlags: 0
